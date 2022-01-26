@@ -8,9 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public abstract class BaseTest {
 
     protected static WebDriver driver;
-    private static final String URL_BASE = "file:///C:/Rumo%20ao%20QA/Projetos/TesteAutomatizado%20Selenium%20e%20Java%20-%20Tela%20Login/TesteAutomatizado/src/test/java/br/com/teste/teste/resource/SistemaLogin/login.html";
+    private static final String URL_BASE = "https://www.google.com.br/";
     private static final String CAMINHO_DRIVER = "src/test/java/br/com/teste/teste/resource/chromedriver97.0.4692.71.exe";
-
 
     @BeforeAll
     public static void iniciar() {

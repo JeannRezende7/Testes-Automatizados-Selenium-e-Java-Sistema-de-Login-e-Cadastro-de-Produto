@@ -8,7 +8,6 @@ import org.openqa.selenium.support.PageFactory;
         public static WebDriver driver;
 
         public BasePo(WebDriver driver) {
-       // this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
