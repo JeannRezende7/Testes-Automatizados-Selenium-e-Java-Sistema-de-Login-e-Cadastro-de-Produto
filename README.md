@@ -1,5 +1,8 @@
 # Testes-Automatizados-Selenium-e-Java-Sistema-de-Login-e-Cadastro-de-Produto
-Teste com sistema de login e cadastro de produtos
+
+
+Dependencias necessarias para uso do Selenium:
+
 
 <!-- Dependência para fazer o Senium funcionar no Chrome -->
 <dependency>
